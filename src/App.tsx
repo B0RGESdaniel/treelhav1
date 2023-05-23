@@ -1,6 +1,13 @@
+import GlobalStyles from './styles/global';
+
+import { AppRoutes } from './routes';
+
 function App() {
   return (
-    <p>Hello World!</p>
+    <>
+      <AppRoutes />
+      <GlobalStyles />
+    </>
   )
 }
 
