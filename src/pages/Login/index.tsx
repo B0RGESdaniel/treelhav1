@@ -5,16 +5,14 @@ import {
     ButtonContainer
 } from "./styles";
 
-import { useNavigate, Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 import LogoTrelha from '../../assets/logo-treelha.svg';
 
 export function Login() {
     const navigate = useNavigate();
 
-    function goToHome() {
-        navigate('/home');
-    }
+    const goToHome = () => navigate('/home');
     
     return (
         <Container>

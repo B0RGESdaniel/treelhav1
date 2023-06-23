@@ -25,4 +25,8 @@ export default createGlobalStyle`
         color: var(--white);
         font-family: 'Montserrat', sans-serif;
     }
+
+    button, input {
+        font-family: 'Montserrat', sans-serif;
+    }
 `;
